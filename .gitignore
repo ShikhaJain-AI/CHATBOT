@@ -1,0 +1,38 @@
+# Ignore venv directory
+venv/
+
+# Ignore Python bytecode files
+*.pyc
+__pycache__/
+
+# Ignore environment-specific settings
+.env
+
+# Ignore IDE-specific files (e.g., for PyCharm, VSCode, etc.)
+.vscode/
+.idea/
+
+# Ignore any local development configuration files
+*.local
+*.sqlite3
+
+# Ignore package dependencies
+# Note: Some projects might use a requirements.txt or Pipfile.lock instead
+# Adjust this section accordingly
+# pipenv
+Pipfile
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# pyenv
+.python-version
+
+# Ignore any generated files or build artifacts
+/dist/
+/build/
+*.egg-info/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
